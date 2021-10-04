@@ -35,8 +35,8 @@ class Contadorpessoas extends Component {
                 Contador de pessoas
                 </p>
                 <h1>{this.state.numero}</h1>
-                <button onClick={this.somar}>+</button>
-                <button onClick={this.subtrair}>-</button>
+                <button onClick={this.somar} className= "button1">+</button>
+                <button onClick={this.subtrair}className= "button2">-</button>
                 </center>
                 </div>
     );
